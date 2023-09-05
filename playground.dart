@@ -8,18 +8,17 @@ void main() {
   // // bool (true/false)
   // // dynamic (any value)
 
-  // Each variable has properties of its own, just use dot after variable name to access it.
+  // // Each variable has properties of its own, just use dot after variable name to access it.
   // int value = 8;
   // print(value.isOdd); // false
 
-  // use $ to concat results, but use ${ } to access properties of variable's datatype
+  // // use $ to concat results, but use ${ } to access properties of variable's datatype
   // String greet = "Hello";
   // print('$greet Hariz'); // Hello Hariz
   // print('${greet.length} Hariz'); // 5 Hariz
 
-  // var/final/const variableName = value
-
-  // var, once set the value, it'll auto detect, but, can't be reassigned to different datatype
+  // // var/final/const variableName = value
+  // // var, once set the value, it'll auto detect, but, can't be reassigned to different datatype
   // var value = 5; // detected as int
   // value = "hello"; // Error, can't change from int to String
 
@@ -28,7 +27,7 @@ void main() {
   // value = "Hello"; // detected as String, reasigned.
   // print(value); // Hello
 
-  // //final is a run-time constant
+  // // final is a run-time constant
   // final time = DateTime.now(); // No error
   // print(time); // shows current date and time
 
@@ -54,7 +53,7 @@ void main() {
   // // If Statement
   // int age = 21;
 
-  // // // Basic syntax
+  // // Basic syntax
   // if(age >= 21){
   //   print('ADULT 21');
   // }else if (age >= 18){
@@ -64,7 +63,6 @@ void main() {
   // }
 
   // // Use comparative operator ( == , || , != )
-
   //   int age = 18;
   //   bool isAdult = false;
 
@@ -77,7 +75,6 @@ void main() {
 
   // // Ternary operator 
   //   String word = "Transformers";
-
   //   print(word.startsWith('T') ? "Roll Out!" : 'Decepticons!'); // Condition ? (True outcome) : (False outcome)   // Outcome : Roll Out!
 
   // // Switch statement
@@ -89,8 +86,7 @@ void main() {
   //     print("Snake!!");
   // }
 
-  // swicth can use "when" for comparative
-
+  // // swicth can use "when" for comparative
   //  String word = "Metal Gear!";
   //  int age = 20;
 
@@ -100,5 +96,47 @@ void main() {
   //   default:
   //     print("Snake!!"); // this will run
   // }
+
+  // // Loops
+  // // for-loop
+  // for(int i = 0; i <= 10; i++){
+  //   print('Hello World $i'); // Hello World 1 - 10
+  // }
+
+  // // Iterate each letter in a String using for-loop
+  // String value = "Hello";
+
+  // for (int i = 0; i < value.length; i++){
+  //   print(value[i]);
+  // }
+
+  // // While-loop
+  // String value = "Hello";
+  // int i = 0;
+
+  // while(i < value.length){
+  //   print(value[i]);
+  //   i++; // Put increment or decrement after. If not, infinite loop happens.
+  // }
+
+  // // Do-While loop
+  //   String value = "Hello";
+  //   int i = 0;
+
+  //   do{
+  //     print(value[i]);
+  //     i++; // // Put increment or decrement after. If not, infinite loop happens.
+  //   }while(i<value.length);
+
+  // // Break / Continue    // Example below is to print H and O and skip ELL
+  String value = "Hello";
+
+  for(int i = 0; i < value.length; i++){
+    if(i == 1 || i == 2 || i == 3){
+      continue;   // continue means start the for-loop again without printing value that the condition met. 
+                  // EG : i == 0 -> print H -> repeat for-loop -> i == 1 is true -> continue with for-loop instead of print E 
+    }
+    print(value[i]);  // H O
+  }
 
 }
