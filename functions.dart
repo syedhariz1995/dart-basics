@@ -23,6 +23,12 @@ void main(){
   print(item); // Gets the String, passed fro, getMultipleValue()
   print(isAdult); // Gets the bool, passed fro, getMultipleValue()
   print(price); // Gets the double, passed fro, getMultipleValue()
+
+  print(printWord()); // null
+
+  // // Pass to function printAnotherName() outside of main()
+  String name = 'Syed Hariz';
+  printAnotherWord(name); // name is passed to printAnotherWord()
 }
 
 // // Outside of main()
@@ -43,3 +49,13 @@ int printNum(){
 (int,String, bool, double) getMultipleValues(){
   return (34, 'Laptop' , true, 3.24);
 } 
+
+
+String? printWord(){
+  return null;  // can put empty here. Will get warning, but will still run
+}
+
+// // Pass as arguments from main() , also the argument name can be named as anything ("word" is the argument for "name" in main())
+void printAnotherWord(String word){
+  print(word);
+}
