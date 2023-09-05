@@ -11,7 +11,7 @@ void main(){
   print(printGame());  // if its not void, call it with print
   print(printNum());   // if its not void, call it with print
 
-  int num = printNum(); // Assign function to variable, call it with print. But make sure same datatype as function (int to int)
+  int num = printNum(); // Assign function to variable, call it with print. But make sure same datatype as function (int to int, etc)
   print(num);          
 
   print(getMultipleValues());  // (34, Laptop, true, 3.24)
