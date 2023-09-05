@@ -11,31 +11,35 @@ void main(){
    * If the destination zon is NOT 'XYZ', 'ABC', OR 'PQR', display an error message.
    */
 
-  String destination = "ABC";
-  double weightInKGs = 6.7;
+  // String destination = "LPP";
+  // double weightInKGs = 6.7;
+  // double cost = 0;  // Used in if-else 
 
   // // if-else
   // if(destination == 'XYZ'){
-  //   print('Shipping cost is ${weightInKGs*5}');
+  //   cost = weightInKGs*5;
   // }else if (destination == 'ABC'){
-  //   print('Shipping cost is ${weightInKGs*7}');
+  //   cost = weightInKGs*7;
   // }else if(destination == 'PQR'){
-  //   print('Shipping cost is ${weightInKGs*10}');
+  //   cost = weightInKGs*10;
   // }else{
   //   print('Error!!');
+  //   return; // If this else statement runs, without return, it'll also show the print statement below.
   // }
+
+  // print('Shipping cost : $cost');
 
 
   // // switch statement
-  switch(destination){
-    case 'XYZ' :
-      print('Shipping cost is ${weightInKGs*5}');
-    case 'ABC' : 
-      print('Shipping cost is ${weightInKGs*7}');
-    case 'PQR' :
-      print('Shipping cost is ${weightInKGs*10}');
-    default:
-     print('Error!!');
-  }
+  // switch(destination){
+  //   case 'XYZ' :
+  //     print('Shipping cost : ${weightInKGs*5}');
+  //   case 'ABC' : 
+  //     print('Shipping cost : ${weightInKGs*7}');
+  //   case 'PQR' :
+  //     print('Shipping cost : ${weightInKGs*10}');
+  //   default:
+  //    print('Error!!');
+  // }
 
 }
