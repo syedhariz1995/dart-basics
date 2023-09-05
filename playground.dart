@@ -128,15 +128,31 @@ void main() {
   //     i++; // // Put increment or decrement after. If not, infinite loop happens.
   //   }while(i<value.length);
 
-  // // Break / Continue    // Example below is to print H and O and skip ELL
-  String value = "Hello";
+  // // Break / Continue   
+  // String value = "Hello";
 
-  for(int i = 0; i < value.length; i++){
-    if(i == 1 || i == 2 || i == 3){
-      continue;   // continue means start the for-loop again without printing value that the condition met. 
-                  // EG : i == 0 -> print H -> repeat for-loop -> i == 1 is true -> continue with for-loop instead of print E 
-    }
-    print(value[i]);  // H O
-  }
+  // // continue
+  // for(int i = 0; i < value.length; i++){
+  //   if(i == 1 || i == 2 || i == 3){
+  //     continue;   // continue means start the for-loop again without printing value that the condition met. 
+  //                 // EG : i == 0 -> print H -> repeat for-loop -> i == 1 is true -> continue with for-loop instead of print E 
+  //   }
+  //   print(value[i]);  // H O
+  // }
+
+  // // without continue
+  // for(int i = 0; i < value.length; i++){
+  //   if(i == 0 || i == 4){
+  //     print(value[i]);
+  //   }
+  // }
+
+  // // break
+  // for(int i = 0; i < value.length; i++){
+  //   if(i == 1 || i == 2 || i == 3){
+  //     break;   // break means if condition is met, throws you out of the loop to execute next piece of code instead.
+  //   }
+  //   print(value[i]);  // H 
+  // }
 
 }

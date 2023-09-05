@@ -2,7 +2,7 @@
 
 void main(){
   /**
-   * Exercise :
+   * Exercise 1:
    * Develop a program to calculate the shipping cost based on the destination zone and the weight of the package (you will be provided)
    * Calculate the shipping cost according to these condition :
    * If the destination zon is 'XYZ', the shipping cost is $5 per kilogram.
@@ -42,4 +42,19 @@ void main(){
   //    print('Error!!');
   // }
 
+
+
+
+  /**
+   * Exercise 1:
+   * Loop through numbers between 1 - 20 , and print out numbers that are divisible by 2
+   */
+
+  // for(int i = 0; i <=20; i++){
+  //   if(i % 2 == 0){
+  //     print('$i is divisible by 2');
+  //   }else{
+  //     print('$i is NOT divisible by 2');
+  //   }
+  // }
 }
