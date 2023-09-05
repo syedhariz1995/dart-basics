@@ -74,4 +74,31 @@ void main() {
   //     print("You're not old enough");
   //   }
   // }
+
+  // // Ternary operator 
+  //   String word = "Transformers";
+
+  //   print(word.startsWith('T') ? "Roll Out!" : 'Decepticons!'); // Condition ? (True outcome) : (False outcome)   // Outcome : Roll Out!
+
+  // // Switch statement
+  // String word = "Metal Gear!";
+  // switch(word){
+  //   case "Metal Gear" :
+  //     print("Liquid!!");
+  //   default:
+  //     print("Snake!!");
+  // }
+
+  // swicth can use "when" for comparative
+
+  //  String word = "Metal Gear!";
+  //  int age = 20;
+
+  //   switch(word){
+  //   case "Metal Gear!" when age == 21 :  // case (statement) when (condition) : 
+  //     print("Liquid!!"); 
+  //   default:
+  //     print("Snake!!"); // this will run
+  // }
+
 }
