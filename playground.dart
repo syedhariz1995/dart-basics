@@ -50,4 +50,28 @@ void main() {
   // print(value!.length);  // Use ! if you are sure the final value is not a null. Else, it will throw an error
   // value = null;
   // print(value!.length);  // Will throw unhandled exeception.
+
+  // // If Statement
+  // int age = 21;
+
+  // // // Basic syntax
+  // if(age >= 21){
+  //   print('ADULT 21');
+  // }else if (age >= 18){
+  //   print('ADULT');
+  // } else {
+  //   print('CHILD');
+  // }
+
+  // // Use comparative operator ( == , || , != )
+
+  //   int age = 18;
+  //   bool isAdult = false;
+
+  //   if(age == 18 && !isAdult){
+  //     print("You're an adult");
+  //   } else{
+  //     print("You're not old enough");
+  //   }
+  // }
 }
