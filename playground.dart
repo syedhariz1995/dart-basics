@@ -41,13 +41,13 @@ void main() {
   // // eg. int/String/bool + null  -  use the question mark (?) after datatype
   // // This examples below has global variable up there in play
 
-  // print(value); // null
-  // value = "Hey there"; // Reassigned
-  // print(value?.length); // need the ? cause could be null
-  // value = null;
-  // print(value?.length ?? 0); // if null show 0, else show length (use ??)
-  // value = "Good day, World!";
-  // print(value!.length);  // Use ! if you are sure the final value is not a null. Else, it will throw an error
-  // value = null;
-  // print(value!.length);  // Will throw unhandled exeception.
+  print(value); // null
+  value = "Hey there"; // Reassigned
+  print(value?.length); // need the ? cause could be null
+  value = null;
+  print(value?.length ?? 0); // if null show 0, else show length (use ??)
+  value = "Good day, World!";
+  print(value!.length);  // Use ! if you are sure the final value is not a null. Else, it will throw an error
+  value = null;
+  print(value!.length);  // Will throw unhandled exeception.
 }
