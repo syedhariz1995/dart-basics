@@ -36,10 +36,21 @@ void main(){
   // printNoun();
 
   // // Pass multiple values to function
-  String employee = "Akmmal Adam";
-  printEmployee(age: 28, name: employee, height: 170); // age and name are "required" from the function. Removing it will get error. height is not, so removing it will be null
+  // String employee = "Akmmal Adam";
+  // printEmployee(age: 28, name: employee, height: 170); // age and name are "required" from the function. Removing it will get error. height is not, so removing it will be null
+
+  // // if parameter in inside {}, then specify it like "year : 2023". If outside {}, then just give the value like 2023. Order don't matter.
+  // // if its outside of {}, value must present. Can't use ? or else error.
+  // String car = "Toyota";
+  // printCar(brand: car, type: "Sedan", 2023);
+
+  // // Can call the variable name straight away instead of $1, $2, etc
+  // final stuff =  printStuff();
+  // print(stuff.age);  
+  // print(stuff.name);
 }
 
+// ************************        OUTSIDE OF MAIN              *******************
 // // Outside of main()
 // void printName(){
 //   print("Hariz");
@@ -77,8 +88,20 @@ void main(){
 
 // // use {} within the () in function. Order don't matter when passed.
 // // use "required" for something compusary, but use ? in case if null or not passed
-void printEmployee({ required String name, required int age, int? height}){
-print(name); // Akmmal Adam
-print(age); // 28
-print(height); // 170, but null if it's not passed
-}
+// void printEmployee({ required String name, required int age, int? height}){
+// print(name); // Akmmal Adam
+// print(age); // 28
+// print(height); // 170, but null if it's not passed
+// }
+
+// // anything outside of {} needs to be before {}, not after
+// void printCar(int year,{required String brand, required String type}){
+// print(brand); // Toyota
+// print(year); // 2023
+// print(type); // "Sedan"
+// }
+
+// // Before name of function, use ({}), specify the type inside
+// ({int age, String name}) printStuff(){
+//  return (age :28, name: 'Hariz');     // specify the value here
+// }
