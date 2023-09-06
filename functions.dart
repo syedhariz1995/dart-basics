@@ -48,6 +48,31 @@ void main(){
   // final stuff =  printStuff();
   // print(stuff.age);  
   // print(stuff.name);
+
+  // // Use arrow functions
+  // final stuff = printStuff();
+  // print(stuff);
+
+  // // Anonymous functions . No name. Syntax : (){--code here}(); 
+  // (){
+  // print("HEEEEYYAAAA");
+  // }();
+
+  // // Anonymous function as a variable 
+  // var greet = () {
+  //   print("Hey hey heeeeeyy~~");
+  // };
+
+  // greet(); // call the function stored in variable in main(), under the function
+
+
+  // // Anonymous function with parameters
+  // var add = (int a, int b){
+  //   return a + b;
+  // };
+  
+  // print(add(3,5)); // Calling the function with arguments
+
 }
 
 // ************************        OUTSIDE OF MAIN              *******************
@@ -105,3 +130,9 @@ void main(){
 // ({int age, String name}) printStuff(){
 //  return (age :28, name: 'Hariz');     // specify the value here
 // }
+
+// // Arrow functions in dart. Syntax : <datatype> fnName() => something here
+// // if use print() after the arrow, change the datatype to void
+// String printStuff() => 'SOMEBODY';
+
+
