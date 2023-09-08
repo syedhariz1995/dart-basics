@@ -1,8 +1,20 @@
 
 
 void main(){
+
+
   /**
-   * Exercise 1:
+   * Create a program with variable "name" and "age", and print out a message that tells how many years they have to be 100 years old
+   */
+
+  // String name = "Hariz";
+  // int age = 28;
+  // print('Hello $name, you have ${100 - age} years to reach 100!');
+  
+
+
+
+  /**
    * Develop a program to calculate the shipping cost based on the destination zone and the weight of the package (you will be provided)
    * Calculate the shipping cost according to these condition :
    * If the destination zon is 'XYZ', the shipping cost is $5 per kilogram.
@@ -45,16 +57,41 @@ void main(){
 
 
 
+
+
   /**
-   * Exercise 1:
-   * Loop through numbers between 1 - 20 , and print out numbers that are divisible by 2
+   * Loop through numbers between 1 - 100 , and print out an appropiate message if the number is even or odd
+   * 
    */
 
   // for(int i = 0; i <=20; i++){
   //   if(i % 2 == 0){
-  //     print('$i is divisible by 2');
+  //     print('$i = EVEN');
   //   }else{
-  //     print('$i is NOT divisible by 2');
+  //     print('$i = ODD');
   //   }
   // }
+
+
+
+
+ /**
+  * Write a Dart program that checks whether a given number is both even AND greater than 10. print out appropiate messages.
+  * Extra : Make as much details as you can . Eg Even and greater than 10, odd and greater than 10, etc.
+  */
+
+  // int num = 10;
+
+  // if(num % 2 == 0 && num > 10){
+  //   print('$num is even and greater than 10');
+  // }else if(num % 2 != 0 && num > 10){
+  //   print('$num is odd, but is greater than 10');    
+  // } else if (num % 2 == 0 && num < 10){
+  //   print('$num is even, but less than 10');
+  // }else if(num % 2 != 0 && num < 10){
+  //   print('$num is odd, but less than 10');
+  // } else if (num == 10){
+  //   print('$num is even, and is equal to 10');
+  // }
+  
 }
