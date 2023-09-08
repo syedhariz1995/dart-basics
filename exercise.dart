@@ -89,8 +89,6 @@ void main(){
  /**
   * Write a Dart program that checks whether a given number is both even AND greater than 10. print out appropiate messages.
   * Extra : Make as much details as you can . Eg Even and greater than 10, odd and greater than 10, etc.
-    Hint : use if-else statement
-    Bonus : use if-else statement within a for-loop
   */
 
   // int num = 10;
