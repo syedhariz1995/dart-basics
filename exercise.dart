@@ -1,3 +1,4 @@
+import 'dart:io';
 
 
 void main(){
@@ -6,7 +7,27 @@ void main(){
   /**
    * Create a program with variable "name" and "age", and print out a message that tells how many years they have to be 100 years old
    */
+  ///////////// Intern's 
 
+    // //for user input name
+    // print("Enter your name: ");
+
+    // // Read the user's input
+    // String name = stdin.readLineSync()!;
+
+    // //for user input age
+    // print("Enter your age: ");
+    // int age = int.parse(stdin.readLineSync()!);
+
+    // // Calculate
+    // int to100yearold = 100 - age;
+
+    // // output
+
+    // print("$name, in the next $to100yearold years you will be 100 years old.");
+  
+
+  //////////// Mine
   // String name = "Hariz";
   // int age = 28;
   // print('Hello $name, you have ${100 - age} years to reach 100!');
@@ -24,6 +45,24 @@ void main(){
    * Hint : Use if-else statement
    * Bonus : Use switch statement
    */
+  /////////////// Intern's
+
+  //   //User choose destination
+    // print("Choose Destination Zone (XYZ/ABC/PQR): ");
+    // String destination = stdin.readLineSync() ?? "";
+    // double weightInKG = 6;
+
+    // if (destination == 'XYZ') {
+    //   print('Shipping Cost: ${weightInKG * 5}');
+    // } else if (destination == 'ABC') {
+    //   print('Shipping Cost: ${weightInKG * 7}');
+    // } else if (destination == 'PQR') {
+    //   print('Shipping Cost: ${weightInKG * 10}');
+    // } else {
+    //   print('Invalid destination zone!!');
+    // }
+
+  ////////////////// Mine
 
   // String destination = "LPP";
   // double weightInKGs = 6.7;
@@ -61,6 +100,23 @@ void main(){
  * using for loop, make a multiplication table for a number, up until times 12. 
  * Example : number = 5 , expected output = 5 x 0 = 0 , 5 x 1 = 5, 5 x 2 = 10
  */
+/////////////////////// Intern's
+
+
+// //insert the number
+  // print("Enter a number: ");
+  // int num = int.parse(stdin.readLineSync()!);
+
+  // //multiplication
+  // print("Multiplication for = $num:");
+  // for (int i = 0; i <= 12; i++) {
+  //   int result = num * i;
+  //   print("$num x $i = $result");
+  // }
+
+
+
+//////////////////////// Mine
 
   // int num = 5;
 
@@ -74,6 +130,21 @@ void main(){
    * Loop through numbers between 1 - 100 , and print out an appropiate message if the number is even or odd
    * 
    */
+  ////////////// Intern's 
+  
+  
+  //  for (int i = 1; i <= 100; i++) {
+  //   if (i % 2 == 0) {
+  //     print("$i is the even number");
+  //   } else {
+  //     print("$i is the odd number");
+  //   }
+  // }
+
+
+
+
+  ///////////// Mine
 
   // for(int i = 0; i <=20; i++){
   //   if(i % 2 == 0){
