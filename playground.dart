@@ -131,7 +131,6 @@
 // String? value; 
 
 // void main(){
-//   // Use this example cause got global variable outside of this main()
 //   // Nullable/Optional variable - Can have 2 values (either null or the datatype set)
 //   // eg. int/String/bool + null  -  use the question mark (?) after datatype
 //   // This examples below has global variable up there in play
