@@ -5,6 +5,8 @@
   // // In Dart, void main() is a MUST HAVE. That's the entry point of Dart to run their code
   // // In Dart, functions are not constant value. Don't use const
   // // Comment and uncomment within the examples
+  // // Do NOT uncomment all of these at the same time. There's void main() in every examples.
+  // // In practice, functions are usually above main(). In these examples, it'll be below.
 
 
 
