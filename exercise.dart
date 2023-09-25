@@ -1,4 +1,4 @@
-// import 'dart:io';
+import 'dart:io';
 
 
 void main(){
@@ -197,6 +197,52 @@ void main(){
   // print('$celsius°C is equal to $convertedToFahrenheit°F');
   // print('$fahrenheit°F is equal to $convertedToCelsius°C');
 
+
+  /**
+   * Write a Dart function called concatenateStrings that takes multiple strings as parameters and concatenates them into a single string. 
+   * Call this function with different strings to test it.
+   * Note : Concatenate in programming means to put them together. Eg. String first = "Hello", String second = "World", now concatenate them to be "Hello World" 
+   */
+
+
+  /**
+   * Write a Dart function called maxOfThree that takes three numbers as parameters and returns the largest of them. 
+   * Call this function to find the maximum among 5, 12, and 8 (or any 3 numbers)
+   */
+
+
+  /**
+   * Write a Dart function called reverseString that takes a string as a parameter and returns the reverse of that string.
+   *  
+   */
+
+
+  /**
+   * Write a Dart function called calculateFactorial that calculates and returns the factorial of a positive integer. Call this function to find the factorial of 5.
+   * Eg. Factorial of 5 = 5 x 4 x 3 x 2 x 1 = 120
+   * Eg. Factorial of 4 = 4 x 3 x 2 x 1
+   */
+
+
+  /**
+   * Write a Dart function called isPrime that takes an integer as a parameter and returns true if it's a prime number and false if it's not. 
+   * Note : Prime numbers are numbers that are divisible by 1 and itself (Eg. 3,7,17,21)
+   * Note : Usually odd numbers, except for 2
+   */
+
+
+  /**
+   * Write a Dart function called calculateBMI that takes a person's weight (in kilograms) and height (in meters) as parameters and returns their BMI (Body Mass Index). 
+   * Call this function to calculate the BMI for a person who weighs 70 kilograms and has a height of 1.75 meters.
+   * Note : BMI formula = weight(kg) / (height) ^ 2 (squared)
+   */
+
+
+  /**
+   * Write a Dart function called isPalindrome that takes a string as a parameter and returns true if the string is a palindrome and false otherwise. 
+   * Note : Palindrome is a word / sentence that reads the same forward or backwards. Eg. Noon, Stats, Level, Madam, Kayak
+   */
+  
 }
 
 // double celsiusToFahrenheit(double c) {
