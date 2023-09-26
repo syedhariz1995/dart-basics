@@ -1,35 +1,35 @@
-import 'dart:io';
-import 'dart:math';
+// import 'dart:io';
+// import 'dart:math';
 
 ////////////////////////////////////////////////////////////////////////////////
 // void main(){
-  /**
-   * Create a program with variable "name" and "age", and print out a message that tells how many years they have to be 100 years old
-   */
-  ///////////// Intern's 
+//   /**
+//    * Create a program with variable "name" and "age", and print out a message that tells how many years they have to be 100 years old
+//    */
+//   ///////////// Intern's 
 
-    // //for user input name
-    // print("Enter your name: ");
+//     //for user input name
+//   //   print("Enter your name: ");
 
-    // // Read the user's input
-    // String name = stdin.readLineSync()!;
+//   //   // Read the user's input
+//   //   String name = stdin.readLineSync()!;
 
-    // //for user input age
-    // print("Enter your age: ");
-    // int age = int.parse(stdin.readLineSync()!);
+//   //   //for user input age
+//   //   print("Enter your age: ");
+//   //   int age = int.parse(stdin.readLineSync()!);
 
-    // // Calculate
-    // int to100yearold = 100 - age;    //**
+//   //   // Calculate
+//   //   int to100yearold = 100 - age;    //**
 
-    // // output
+//   //   // output
 
-    // print("$name, in the next $to100yearold years you will be 100 years old.");
+//   //   print("$name, in the next $to100yearold years you will be 100 years old.");
   
 
-  //////////// Mine
-  // String name = "Hariz";
-  // int age = 28;
-  // print('Hello $name, you have ${100 - age} years to reach 100!');
+//   // //////////// Mine
+//   // String name = "Hariz";
+//   // int age = 28;
+//   // print('Hello $name, you have ${100 - age} years to reach 100!');
   
 // }
 
@@ -63,9 +63,9 @@ import 'dart:math';
    */
   /////////////// Intern's
 
-  //   //User choose destination
+    //User choose destination
     // print("Choose Destination Zone (XYZ/ABC/PQR): ");
-    // String destination = stdin.readLineSync() ?? "";
+    // String destination = stdin.readLineSync() ?? ""; 
     // double weightInKG = 6;
 
     // if (destination == 'XYZ') {
@@ -136,7 +136,7 @@ import 'dart:math';
 /////////////////////// Intern's
 
 
-// //insert the number
+//insert the number
   // print("Enter a number: ");
   // int num = int.parse(stdin.readLineSync()!);
 
@@ -151,11 +151,11 @@ import 'dart:math';
 
 //////////////////////// Mine
 
-  // int num = 5;
+//   int num = 5;
 
-  // for(int i = 0; i <= 12; i++){
-  //   print('$num x $i = ${num * i}');
-  // }
+//   for(int i = 0; i <= 12; i++){
+//     print('$num x $i = ${num * i}');
+//   }
 // }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -183,26 +183,26 @@ import 'dart:math';
   ////////////// Intern's 
   
   
-  //  for (int i = 1; i <= 100; i++) {
-  //   if (i % 2 == 0) {
-  //     print("$i is the even number");
-  //   } else {
-  //     print("$i is the odd number");
-  //   }
-  // }
+//    for (int i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//       print("$i is the even number");
+//     } else {
+//       print("$i is the odd number");
+//     }
+//   }
 
 
 
 
-  ///////////// Mine
+//   ///////////// Mine
 
-  // for(int i = 0; i <=20; i++){
-  //   if(i % 2 == 0){
-  //     print('$i = EVEN');
-  //   }else{
-  //     print('$i = ODD');
-  //   }
-  // }
+//   for(int i = 0; i <=20; i++){
+//     if(i % 2 == 0){
+//       print('$i = EVEN');
+//     }else{
+//       print('$i = ODD');
+//     }
+//   }
 // }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -230,19 +230,19 @@ import 'dart:math';
 
 
   ////////// Mine
-  // int num = 10;
+//   int num = 10;
 
-  // if(num % 2 == 0 && num > 10){
-  //   print('$num is even and greater than 10');
-  // }else if(num % 2 != 0 && num > 10){
-  //   print('$num is odd, but is greater than 10');    
-  // } else if (num % 2 == 0 && num < 10){
-  //   print('$num is even, but less than 10');
-  // }else if(num % 2 != 0 && num < 10){
-  //   print('$num is odd, but less than 10');
-  // } else if (num == 10){
-  //   print('$num is even, and is equal to 10');
-  // }
+//   if(num % 2 == 0 && num > 10){
+//     print('$num is even and greater than 10');
+//   }else if(num % 2 != 0 && num > 10){
+//     print('$num is odd, but is greater than 10');    
+//   } else if (num % 2 == 0 && num < 10){
+//     print('$num is even, but less than 10');
+//   }else if(num % 2 != 0 && num < 10){
+//     print('$num is odd, but less than 10');
+//   } else if (num == 10){
+//     print('$num is even, and is equal to 10');
+//   }
 // }
 
 
@@ -324,20 +324,20 @@ import 'dart:math';
 ////////////////////////////////////////////////////////////////////////////////
 
 // void main(){
-//   /**
-//    * Write a Dart function called concatenateStrings that takes multiple strings as parameters and concatenates them into a single string. 
-//    * Call this function with different strings to test it.
-//    * Note : Concatenate in programming means to put them together. Eg. String first = "Hello", String second = "World", now concatenate them to be "Hello World" 
-//    */
-//   ///////// Intern's
-//    String hello = 'Hello';
-//    String world = 'World';
+// //   /**
+// //    * Write a Dart function called concatenateStrings that takes multiple strings as parameters and concatenates them into a single string. 
+// //    * Call this function with different strings to test it.
+// //    * Note : Concatenate in programming means to put them together. Eg. String first = "Hello", String second = "World", now concatenate them to be "Hello World" 
+// //    */
+// //   ///////// Intern's
+//   //  String hello = 'Hello';
+//   //  String world = 'World';
 
-//    print('$hello $world');
+//   //  print('$hello $world');
 
 
-    /////////// Mine
-    // greet("World");
+//     /////////// Mine
+//     // greet("World");
 
 // }
 
@@ -373,27 +373,27 @@ import 'dart:math';
 //    * Call this function to find the maximum among 5, 12, and 8 (or any 3 numbers)
 //    */
 //   /////////// Intern's
-//       print("Enter a number 1: ");
-//       int num1 = int.parse(stdin.readLineSync()!);
+      // print("Enter a number 1: ");
+      // int num1 = int.parse(stdin.readLineSync()!);
 
-//       print("Enter a number 2: ");
-//       int num2 = int.parse(stdin.readLineSync()!);
+      // print("Enter a number 2: ");
+      // int num2 = int.parse(stdin.readLineSync()!);
 
-//       print("Enter a number 3: ");
-//       int num3 = int.parse(stdin.readLineSync()!);
+      // print("Enter a number 3: ");
+      // int num3 = int.parse(stdin.readLineSync()!);
 
-//       int max = maxOfThree(num1, num2, num3);
-//       print('The maximum number of $num1, $num2, $num3 is : $max');
+      // int max = maxOfThree(num1, num2, num3);
+      // print('The maximum number of $num1, $num2, $num3 is : $max');
 
     ////////// Mine
-    // int a = 5, b = 12, c = 8;
-    // int max = maxOfThree(a, b, c);
-    // print("The maximum of $a, $b, and $c is $max");
+//     int a = 5, b = 12, c = 8;
+//     int max = maxOfThree(a, b, c);
+//     print("The maximum of $a, $b, and $c is $max");
 
-  // }
+//   // }
 
-/// Funtion Here
-/// Intern's
+// /// Funtion Here
+// /// Intern's
 // int maxOfThree(int a, int b, int c) {
 //   int max = a;
 
@@ -409,9 +409,9 @@ import 'dart:math';
 // }
 
 
-/// Mine
+// /// Mine
 // int maxOfThree(int a, int b, int c) {
-//   return (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+//   return (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);         
 // }
 
 
@@ -436,28 +436,28 @@ import 'dart:math';
 ////////////////////////////////////////////////////////////////////////////////
 
 // void main(){
-//   /**
-//    * Write a Dart function called reverseString that takes a string as a parameter and returns the reverse of that string.
-//    *  
-//    */
-//////////////Intern's
-//    String originalString = "ASYIKIN";
-//     List<String> characters = originalString.split('');
+// //   /**
+// //    * Write a Dart function called reverseString that takes a string as a parameter and returns the reverse of that string.
+// //    *  
+// //    */
+// //////////////Intern's
+//     // String originalString = "ASYIKIN";
+//     // List<String> characters = originalString.split('');
 
-// String reversedString = characters.reversed.join();
-// print(reversedString);
+//     // String reversedString = characters.reversed.join();
+//     // print(reversedString);
 
 
 
-  ////////////// Mine
-  //  String input = "Dart";
-  //  String reversed = reverseString(input);
-  //  print("Reversed: $reversed");
+//   ////////////// Mine
+//    String input = "Dart";
+//    String reversed = reverseString(input);
+//    print("Reversed: $reversed");
 
 // }
 
-// // function here
-/// Mine
+// // // function here
+// /// Mine
 // String reverseString(String input) {
 //   return input.split('').reversed.join('');
 // }
@@ -493,18 +493,18 @@ import 'dart:math';
 // print('Factorial of $num = $factorial');
 
 
-    /////////// Mine
-  // int n = 5;
-  // int factorial = calculateFactorial(n);
-  // print("The factorial of $n is $factorial");
+//     /////////// Mine
+//   int n = 5;
+//   int factorial = calculateFactorial(n);
+//   print("The factorial of $n is $factorial");
     
   
-// }
+// // }
 
 
 
-// // Function here
-/// Intern's
+// // // Function here
+// /// Intern's
 // int calculateFactorial(int n) {
 //   if (n == 0 || n == 1) {
 //     return 1;
@@ -518,7 +518,7 @@ import 'dart:math';
 // }
 
 
-/// Mine
+// /// Mine
 // int calculateFactorial(int n) {
 //   if (n == 0) {
 //     return 1;
@@ -594,7 +594,7 @@ import 'dart:math';
 // }
 
 
-/// Mine
+// /// Mine
 // bool isPrime(int number) {
 //   if (number <= 1) {
 //     return false;
@@ -703,14 +703,14 @@ import 'dart:math';
 //    * Write a Dart function called isPalindrome that takes a string as a parameter and returns true if the string is a palindrome and false otherwise. 
 //    * Note : Palindrome is a word / sentence that reads the same forward or backwards. Eg. Noon, Stats, Level, Madam, Kayak
 //    */
-//   //////////Intern's
+// //   //////////Intern's
 //     stdout.write('Enter a string: ');
 //     String inputString = stdin.readLineSync()!;
 
 //     bool isPal = isPalindrome(inputString);
 //     print('$inputString is a palindrome?: $isPal');
 
-//       ///////// Mine
+// //       ///////// Mine
 //       String word = "wow";
 //       bool result = isPalindrome(word);
 //       if (result) {
@@ -721,8 +721,8 @@ import 'dart:math';
 
 // }
 
-// // Function here
-//// Intern's
+// // // Function here
+// //// Intern's
 // bool isPalindrome(String str) {
 //   String pali = str.toLowerCase();
 
@@ -739,8 +739,8 @@ import 'dart:math';
 
 
 
-//// Mine
-// bool isPalindrome(String input) {
+// //// Mine
+// // bool isPalindrome(String input) {
 //   // Remove spaces and convert to lowercase for case-insensitive comparison
 //   String cleanedInput = input.replaceAll(' ', '').toLowerCase();
   
@@ -752,4 +752,3 @@ import 'dart:math';
 
 
 ////////////////////////////////////////////////////////////////////////////////
-
